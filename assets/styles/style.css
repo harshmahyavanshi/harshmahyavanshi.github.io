@@ -1,0 +1,241 @@
+body{
+    margin:0px auto;
+    width: 100%;
+    font-family: 'Langar', cursive;
+}
+nav ul li {
+    list-style-type:none;
+    float: left;
+    padding-right: 2.5em;/* (px,em,%),pt,cm */
+    color:#eff3c6;
+    border-radius: 100%
+
+}
+
+
+nav ul{
+    float: right;   
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color:black;
+    position: fixed;
+}
+nav ul{
+    padding: none;
+}
+nav ul li a:link , nav ul li a:visited{
+    text-decoration: none;
+    color: white;
+    
+    padding: 7px 20px;
+    text-align: center;
+    display: inline-block;
+    
+    
+}
+nav ul li a:hover  , nav ul li a:active{
+    background-color: red;
+    border-radius: 10px 10px 10px 10px;
+    color: #ffffff;
+
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    background-color: #4cbbb9;
+}
+
+ {
+  width: 300px;
+  height: 200px;
+  
+}
+
+
+
+.home{
+    background-image: url("https://images.unsplash.com/photo-1577972191000-eecb8ab851a2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTQ4fHx3ZWIlMjBkZXNpZ258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    text-align: center;
+    font-size:48px;
+    color:#ffffff;
+    display: table;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.home .inner img{
+    
+    border-radius: 100%;
+    
+    
+    width:250px;
+    height: 250px;
+}
+.about{
+    background-image: url('https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    display: table;
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.about .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 75%;
+    float: center;
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50%;
+    text-align: justify;
+
+}
+.about .inner h1{
+    font-size: 42px;
+    text-align: left;
+}
+.about .inner p{
+    font-size: 28px;
+}
+.about .inner p a{
+    text-decoration: none;
+    text-decoration-style: solid;
+}
+.about .inner p a:hover{
+    color: hotpink;
+}
+.education{
+    background-color: #fff;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    table-layout: center;
+}
+.education .inner{
+    padding: 50px;
+}
+.education h1, .hobbies h1, .skills h1, .contact h1{
+    font-size: 42px;
+    text-align: center;
+}
+.education .inner div,.hobbies .inner div, .skills .inner div{
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+}
+.education .inner div p, .hobbies .inner div p, .skills .inner div ul li, .contact .inner p{
+    font-size: 20px;
+}
+.education .inner div img{
+    width: 100px;
+    height: auto;
+}
+
+.hobbies{
+    background-image: url("https://www.orasoftnepal.com/sliderfiles/ll/slider1.jpg");
+    display: table;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+}
+.hobbies .inner div{   
+    padding-right: 100px;
+}
+.hobbies .inner div img{
+    width: 100px;
+    height: auto;
+}
+.hobbies .inner{
+    padding: 50px;
+    width:50%;
+
+}
+.skills {
+    background-image: url("https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2018/10/blog-how-to-get-into-cybersecurity.png");
+    display: table;
+    
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.skills .inner{
+    padding: 50px;
+    color: #fff;
+
+}
+.skills .inner div ul li{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact{
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://3pc57m1zwnnj1cwbkd23g5up-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/app1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact .inner p a{
+    text-decoration: none;
+}
+.contact .inner{
+    
+    text-align: center;
+
+}
+
+
+/*responsive designing*/
+@media (min-width: 320px) and (max-width: 767px){
+    nav{
+        font-size: 5px;
+    }
+    .home .inner {
+        font-size: 13px;
+    }
+    .home .inner img{
+        padding-top:50px; 
+    }
+    .about .inner p{
+        font-size: 13px;
+        float: right;
+
+        text-align: justify;
+    }
+    nav ul li a:hover  , nav ul li a:active{
+    background-color: red;
+    border-radius: 5px 5px 5px 5px;
+    color: #ffffff;
+
+    color: black;
+    height: 100%;
+    width: 50%;
+}
+    .education .inner div, .skills .inner div{
+        width: 100%;
+    }
+    .hobbies .inner div{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid #d3d3d3;
+        padding-right: 50px;
+    }
+    .hobbies .inner div img{
+        padding-top: 10px;
+    }
+}
