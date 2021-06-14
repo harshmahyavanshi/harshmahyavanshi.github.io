@@ -124,18 +124,18 @@ section{
 .education .inner{
     padding: 50px;
 }
-.education h1, .hobbies h1, .skills h1, .contact h1{
+.education h1, .hobbies h1, .projects h1 , .skills h1, .contact h1{
     font-size: 42px;
     text-align: center;
 }
-.education .inner div,.hobbies .inner div, .skills .inner div{
+.education .inner div,.hobbies .inner div, .skills .inner div, .projects .inner div{
     width: 30%;
     margin-left: 5px;
     margin-right: 5px;
     float: left;
     text-align: center;
 }
-.education .inner div p, .hobbies .inner div p, .skills .inner div ul li, .contact .inner p{
+.education .inner div p, .hobbies .inner div p, .skills .inner div ul li, .contact .inner p, .projects .inner div p{
     font-size: 20px;
 }
 .education .inner div img{
@@ -158,6 +158,33 @@ section{
     height: auto;
 }
 .hobbies .inner{
+    padding: 50px;
+    width:50%;
+
+}
+.projects{
+    background-image: url("https://i.gifer.com/J4o.gif");
+    display: table;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projects .inner div{   
+    padding-right: 100px;
+    text-decoration-color: none;
+}
+.projects .inner div a{   
+    text-decoration: none;
+    color: white;
+}
+.projects .inner div img{
+    width: 100px;
+    height: 100px;
+    
+}
+.projects .inner{
     padding: 50px;
     width:50%;
 
@@ -185,7 +212,7 @@ section{
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url("https://3pc57m1zwnnj1cwbkd23g5up-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/app1.jpg");
+    background-image: url("assets/img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
